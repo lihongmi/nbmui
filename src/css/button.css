@@ -1,0 +1,42 @@
+.btn {
+    position: relative;
+    display: inline-block;
+    padding: 6px 8px 7px;
+    margin-bottom: 0;
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 1;
+    color: #333;
+    text-align: center;
+    white-space: nowrap;
+    vertical-align: top;
+    cursor: pointer;
+    background-color: #fff;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+}
+.btn:active, .btn.active {
+    color: inherit;
+    background-color: #ccc;
+}
+.btn:disabled, .btn.disabled {
+    opacity: .6;
+}
+
+.btn-primary {
+    color: #fff;
+    background-color: #3c88fa;
+    border: 1px solid #3c88fa;
+}
+
+.btn-outlined {
+    background-color: transparent;
+}
+
+
+.btn-block {
+    display: block;
+    width: 100%;
+    padding: 15px 0;
+    font-size: 18px;
+}

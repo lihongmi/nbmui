@@ -1,0 +1,35 @@
+{
+  "name": "nbmui",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "directories": {
+    "doc": "doc"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git@git.51.nb:web/nbmui.git"
+  },
+  "keywords": [
+    "nbmui"
+  ],
+  "author": "wusong@u51.com",
+  "license": "ISC",
+  "devDependencies": {
+    "gulp": "^3.9.0",
+    "gulp-uglify": "^1.2.0",
+    "gulp-concat": "^2.6.0",
+    "del": "^1.2.1",
+    "gulp-connect": "^2.2.0",
+    "gulp-rename": "^1.2.2",
+    "gulp-processhtml": "^1.1.0",
+    "gulp-watch": "^4.3.4"
+  },
+  "dependencies": {
+    "gulp-minify-css": "^1.2.1",
+    "gulp-watch": "^4.3.5"
+  }
+}
